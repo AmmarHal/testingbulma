@@ -1,0 +1,21 @@
+{
+  "name": "TestBulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "sass": "^1.26.9"
+  }
+  ,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass" : "sass scss/main.scss css/main.css" ,
+    "watch-sass" : "sass --watch scss/main.scss:css/main.css"
+
+  }
+}
